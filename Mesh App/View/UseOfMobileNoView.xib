@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="TitilliumWeb-Regular.ttf">
+            <string>TitilliumWeb-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="UseOfMobileNoView" customModule="Mesh_App" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="501"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="feT-V6-Hme">
+                    <rect key="frame" x="5" y="56" width="310" height="440"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <mutableString key="text">We utilize your mobile number and email ID only for the following purposes: (i) to identify and have you login into the App (ii) to understand and customize your experience while using the App (for e.g. seeing patterns in an analytics tool or for showing relevant messages in your groups, basis your interests) and (iii) to customize our marketing and advertising to you when you use a third party services that provides an option to advertise to it's users (for e.g. Google, Facebook etc.) - Important Note: At this point of time, and in the near future, Mesh does not plan to show Ads within its App - the use clarified above is applicable when we reach out to you via other services that have you as a member. In the above (ii) and (iii) we may upload your data to a 3rd party service, that we have specifically authorized or entered into a contract with (for e.g. a data analytics provider like Google Analytics or an advertising provider like Facebook).
+
+To answer more questions related to privacy, please read our Terms of Use.</mutableString>
+                    <fontDescription key="fontDescription" name="TitilliumWeb-Regular" family="Titillium Web" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cmv-Q2-k7D">
+                    <rect key="frame" x="274" y="16" width="35" height="35"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="35" id="R7k-ln-LWC"/>
+                        <constraint firstAttribute="width" secondItem="cmv-Q2-k7D" secondAttribute="height" multiplier="1:1" id="YND-Xe-gmu"/>
+                        <constraint firstAttribute="width" constant="35" id="Z3J-g6-ZXG"/>
+                    </constraints>
+                    <state key="normal" image="close1"/>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="cmv-Q2-k7D" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="16" id="7Bf-fw-uD1"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="cmv-Q2-k7D" secondAttribute="trailing" constant="11" id="AT5-1s-MPa"/>
+                <constraint firstItem="feT-V6-Hme" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="5" id="LhV-Sk-6jr"/>
+                <constraint firstItem="feT-V6-Hme" firstAttribute="top" secondItem="cmv-Q2-k7D" secondAttribute="bottom" constant="5" id="Pz2-Th-12Q"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="feT-V6-Hme" secondAttribute="trailing" constant="5" id="QxD-OL-Cho"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="feT-V6-Hme" secondAttribute="bottom" constant="5" id="zMZ-bB-J6d"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="btnClose" destination="cmv-Q2-k7D" id="Qbl-ek-nQr"/>
+                <outlet property="txtViewData" destination="feT-V6-Hme" id="HAW-iC-5Dk"/>
+            </connections>
+            <point key="canvasLocation" x="198.40000000000001" y="80.50974512743629"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="close1" width="16" height="16"/>
+    </resources>
+</document>

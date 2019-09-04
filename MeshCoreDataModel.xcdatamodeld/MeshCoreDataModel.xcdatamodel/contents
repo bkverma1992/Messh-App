@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14490.98" systemVersion="18E226" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="AllChatInfoListEntity" representedClassName="AllChatInfoListEntity" syncable="YES">
+        <attribute name="chatKey" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="created_By" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="created_on" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="group_description" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="group_icon" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="group_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="group_name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="messageTime" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="modified_on" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="participant_count" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="textMsg" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="AllChatMessagesListEntity" representedClassName="AllChatMessagesListEntity" syncable="YES">
+        <attribute name="isReplyMsg" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="messageId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="messageTime" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="senderCompany" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="senderDesignation" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="senderFcmToken" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="senderId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="senderImage" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="senderLocation" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="senderName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="textMessage" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="uniqueChatKey" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="AllChatUserListEntity" representedClassName="AllChatUserListEntity" syncable="YES">
+        <attribute name="chatType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="groupIcon" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="groupId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="groupName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lastMessage" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lastMessageId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lastMessageTime" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="participantsId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="participantsImage" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="participantsName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userChatKey" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="LoginUserDetail" representedClassName="UserDetailCoreDataModel" syncable="YES">
+        <attribute name="cityName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="companyName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="countryCode" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="countryName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="createdOn" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="designation" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="deviceId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fcmPushToken" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="industry" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="institute" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="interests" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isLogin" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isVerified" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="modifiedOn" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="phone" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="shortBio" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userEmail" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userImage" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userName" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="ParticipantsListEntity" representedClassName="ParticipantsListEntity" syncable="YES">
+        <attribute name="chatUniqueKey" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isAdmin" optional="YES" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="participantsFCMPushTokenDB" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="participantsId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="participantsImage" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="participantsLocation" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="participantsName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="participantsPhone" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="participantsShortBio" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="PhoneContactDetail" representedClassName="PhoneContactDetail" syncable="YES">
+        <attribute name="cityName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="companyName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="countryCode" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="countryName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="createdOn" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="designation" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="deviceId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fcmPushToken" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="industry" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="institute" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="interests" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isExist" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isLogin" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isVerified" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="modifiedOn" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="number" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="phone" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="shortBio" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userEmail" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userImage" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userName" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="AllChatInfoListEntity" positionX="0" positionY="36" width="128" height="225"/>
+        <element name="AllChatMessagesListEntity" positionX="9" positionY="-108" width="128" height="225"/>
+        <element name="AllChatUserListEntity" positionX="27" positionY="-117" width="128" height="210"/>
+        <element name="LoginUserDetail" positionX="67.87109375" positionY="-269.26953125" width="128" height="345"/>
+        <element name="ParticipantsListEntity" positionX="9" positionY="45" width="128" height="180"/>
+        <element name="PhoneContactDetail" positionX="-63" positionY="135" width="128" height="390"/>
+    </elements>
+</model>

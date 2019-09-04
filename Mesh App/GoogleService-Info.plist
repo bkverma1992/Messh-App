@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>642398868191-bjcqnq0jn4hm85l9kkful0httgegtvus.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.642398868191-bjcqnq0jn4hm85l9kkful0httgegtvus</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCLV8csiE96HqUDIrryAIIFbvvgurgEznA</string>
+	<key>GCM_SENDER_ID</key>
+	<string>642398868191</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.meshchat.co</string>
+	<key>PROJECT_ID</key>
+	<string>meshapp-96fbb</string>
+	<key>STORAGE_BUCKET</key>
+	<string>meshapp-96fbb.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:642398868191:ios:7e2f30b080e45ff3</string>
+	<key>DATABASE_URL</key>
+	<string>https://meshapp-96fbb-2db96.firebaseio.com/</string>
+</dict>
+</plist>

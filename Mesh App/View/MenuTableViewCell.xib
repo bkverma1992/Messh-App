@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="TitilliumWeb-Regular.ttf">
+            <string>TitilliumWeb-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="idMenuCell" rowHeight="54" id="kiW-9i-cws" customClass="MenuTableViewCell" customModule="Mesh_App" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="191" height="50"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="kiW-9i-cws" id="wbp-Fi-WFI">
+                <rect key="frame" x="0.0" y="0.0" width="191" height="49.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Home" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Emm-7U-iQN">
+                        <rect key="frame" x="20" y="15" width="151" height="20"/>
+                        <fontDescription key="fontDescription" name="TitilliumWeb-Regular" family="Titillium Web" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Emm-7U-iQN" firstAttribute="top" secondItem="wbp-Fi-WFI" secondAttribute="topMargin" constant="4" id="eIl-pw-GA2"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="Emm-7U-iQN" secondAttribute="trailing" constant="4" id="eKy-gB-R9R"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="Emm-7U-iQN" secondAttribute="bottom" constant="4" id="mGp-xj-pdD"/>
+                    <constraint firstItem="Emm-7U-iQN" firstAttribute="leading" secondItem="wbp-Fi-WFI" secondAttribute="leadingMargin" constant="4" id="opE-Xm-eB6"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="lblMenuTitle" destination="Emm-7U-iQN" id="jWF-kl-msH"/>
+            </connections>
+            <point key="canvasLocation" x="-118.5" y="11"/>
+        </tableViewCell>
+    </objects>
+</document>
